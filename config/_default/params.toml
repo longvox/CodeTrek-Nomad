@@ -8,7 +8,7 @@ description = "Hello"
 avatar = "img/profile-picture.jpg"
 
 # disqus is a comment system. see https://disqus.com
-disqusShortname = "longvox-github-io"
+disqusShortname = "codetrek-nomad"
 
 [emoji]
 enableEmoji = true
