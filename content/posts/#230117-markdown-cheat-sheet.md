@@ -94,6 +94,9 @@ Emphasis, aka italics, with asterisks or underscores. **Strong emphasis**, aka b
 
 > Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
 
+{{< sidenote >}}
+This a regular part of the main body of the article. It can have newlines and even Markdown which will be rendered normally.
+{{< /sidenote >}}
 You can reference a footnote like this.
 
 > All generalizations are false, including this one. — Mark Twain. [^1]
