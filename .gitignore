@@ -30,7 +30,6 @@ config.toml
 
 # Ignore Node.js modules
 node_modules/
-package-lock.json
 
 # Ignore Tailwind CSS output directory
 /assets/css/
