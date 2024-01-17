@@ -368,7 +368,7 @@
   }
 
   #content .taxonomy-list {
-    @apply flex flex-row flex-wrap gap-x-2 gap-y-6 list-none ml-0;
+    @apply inline-flex flex flex-row flex-wrap gap-x-2 gap-y-6 list-none ml-0;
   }
 
   #content .taxonomy-list a {
