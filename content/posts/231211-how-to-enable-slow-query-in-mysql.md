@@ -11,7 +11,7 @@ tags:
   - Log
 ---
 
-Trong quá trình sử dụng và vận hành hệ thống Mysql thì việc quản lý các câu truy vấn thực thi chậm trên hệ thống sẽ giúp mình có thể như điều tra nhanh chóng xem vấn đề nằm trong code hay do hệ thống chưa được tối ưu tốt, mình sẽ note lại cấu hình log slow queries trong Mysql bản 5.6.
+Trong quá trình sử dụng và vận hành hệ thống Mysql thì việc quản lý các câu truy vấn thực thi chậm trên hệ thống sẽ giúp mình có thể điều tra nhanh chóng xem vấn đề nằm trong code hay do hệ thống chưa được tối ưu tốt, mình sẽ note lại cấu hình log slow queries trong Mysql bản 5.6.
 
 ## 1. Cấu hình bên trong Mysql không cần restart service.
 Login vào mysql:
@@ -71,7 +71,7 @@ Uptime: 416  Threads: 1  Questions: 16  Slow queries: 1  Opens: 68
 Flush tables: 1  Open tables: 61  Queries per second avg: 0.038
 ```
 
-2. Cấu hình sửa trong file cấu hình, cần restart dịch vụ
+## 2. Cấu hình sửa trong file cấu hình, cần restart dịch vụ
 Mở file cấu hình :
 ```bash
 vi /etc/my.cnf
