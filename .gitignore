@@ -1,0 +1,36 @@
+
+# Hugo generated files
+/public/
+/resources/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.bak
+*.swp
+*~
+
+# Hugo configuration file
+config.toml
+
+# Ignore the Hugo cache directory
+/cache/
+
+# Ignore the public directory if you deploy your site using Git
+# Remove this line if you're using a different deployment method
+!/public/
+
+# Ignore the Hugo workspace file
+.hugo_workspace
+
+# Ignore Hugo log
+.hugo_build.lock
+
+# Ignore Node.js modules
+node_modules/
+package-lock.json
+
+# Ignore Tailwind CSS output directory
+/assets/css/
