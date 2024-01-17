@@ -27,5 +27,12 @@
 [[social]]
     identifier = "github"
     name = "GitHub"
-    url = "githug.com/longvox"
+    url = "https://www.github.com/longvox"
     weight = 1
+
+[[social]]
+    identifier = "linkedin"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/vo-hoang-long/"
+    weight = 2
+
