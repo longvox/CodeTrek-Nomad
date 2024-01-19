@@ -12,7 +12,7 @@ tags:
 ---
 
 {{< sidenote >}}
-Tại mình theo trường phái sử dụng log nhiều ít khi sử dụng công cụ debug, mình xem log từ console-log đến file log và mình thích xem log để điều tra vấn đề hơn nên mình mới nhảy số chủ đề này
+Tại mình theo trường phái sử dụng log nhiều, ít khi sử dụng công cụ debug, mình xem log từ console-log đến file log và mình thích xem log để điều tra vấn đề hơn nên mình mới nhảy số chủ đề này
 {{< /sidenote >}}
 
 Mở bát cho cái blog `a-ma-tơ` của mình thì mình lại chọn bừa chủ đề viết. Mà lúc này mình đang làm với thằng SQL xong mình nghĩ thôi thì mình chọn cái liên quan tới cái log trong SQL. Mà trong vô vàn cái log thì log câu query chậm có vẻ nhiều người quan tâm để có thể biết được câu query nào thối để có thể biết và tối ưu đựợc sớm nhất hoặc cốt là nắm được vấn đề đang bị chậm chỗ nào. Mà hệ thống hiện tại của mình đang làm thì đang sử dụng MySQL 5.6 nên mình cũng chia sẻ dựa theo version này.
