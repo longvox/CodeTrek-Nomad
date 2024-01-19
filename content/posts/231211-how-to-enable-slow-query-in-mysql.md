@@ -81,7 +81,7 @@ Uptime: 416  Threads: 1  Questions: 16  Slow queries: 1  Opens: 68
 Flush tables: 1  Open tables: 61  Queries per second avg: 0.038
 ```
 
-## 2. Cấu hình sửa trong file cấu hình, cần restart dịch vụ
+## 2. Cấu hình sửa trong file cấu hình, cần restart service
 Mở file cấu hình :
 ```bash
 vi /etc/my.cnf
