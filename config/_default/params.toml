@@ -2,13 +2,13 @@
 isSinglePage = true
 
 # Meta Config
-description = "Hello"
+description = "Là nơi mình sẽ ghi lại những trải nghiệm và cùng mình khám phá những dòng code một cách vui vẻ hơn. Mình làm việc nhiều với hệ sinh thái  javascript từ front-end tới back-end, PHP laravel, gần đây mình có hứng thú với golang hi vọng có nhiều chia sẽ hữu ích cho các bạn."
 
 # Header Configuration
 avatar = "img/profile-picture.jpg"
 
 # disqus is a comment system. see https://disqus.com
-disqusShortname = "codetrek-nomad"
+disqusShortname = ""
 
 [emoji]
 enableEmoji = true
@@ -16,10 +16,10 @@ enableEmoji = true
 # giscus is a comment system based on GitHub Discussions. see https://giscus.app
 [giscus]       
     enable = false
-    repo = ""
-    repoId = ""
+    repo = "longvox/CodeTrek-Nomad"
+    repoId = "R_kgDOLF40qA"
     category = "Announcements"
-    categoryId = ""
+    categoryId = "DIC_kwDOLF40qM4Cci3-"
     # mapping = "pathname"  # comment value is the default value
     # strict = 0
     # reactionsEnabled = 1
