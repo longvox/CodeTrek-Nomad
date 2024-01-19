@@ -482,6 +482,7 @@
 
 
   .mute.sidenote {
+    @apply font-inconsolata;
     margin-top: 0;
     margin-bottom: 14px;
     position: relative;
