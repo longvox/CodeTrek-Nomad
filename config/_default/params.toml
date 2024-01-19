@@ -15,7 +15,7 @@ enableEmoji = true
 
 # giscus is a comment system based on GitHub Discussions. see https://giscus.app
 [giscus]       
-    enable = false
+    enable = true
     repo = "longvox/CodeTrek-Nomad"
     repoId = "R_kgDOLF40qA"
     category = "Announcements"
