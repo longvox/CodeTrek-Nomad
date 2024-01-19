@@ -23,7 +23,7 @@ Mà có đụng vào config nên mình cũng chia sẻ 2 cách để có thể c
 
 Mà lang mang cũng nhiều rồi mình sẽ hướng dẫn cách cấu hình như bên dưới nhé.
 
-## 1. Cấu hình bên trong Mysql không cần restart service.
+## 1. Cấu hình bên trong Mysql không cần restart service
 Login vào mysql:
 
 ```bash
