@@ -15,3 +15,6 @@
     {{- $styles := $styles | minify | fingerprint | resources.PostProcess -}}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" />
 {{- end -}}
+
+<link id="markup-hightlight-light" rel="preload stylesheet" as="style" href="/css/syntax-dark.css" />
+<link id="markup-hightlight-dark" rel="preload stylesheet" as="style" href="/css/syntax-light.css" />

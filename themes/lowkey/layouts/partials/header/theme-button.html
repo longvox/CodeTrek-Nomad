@@ -1,12 +1,9 @@
-<!-- <button class="toggle-theme" aria-label="Toggle Theme" title="Toggle Theme" onclick="toggleTheme()"> -->
-<!--   <span class="theme-icon light"> {{ partial "utils/icon" "sun" }} </span> -->
-<!--   <span class="theme-icon dark"> {{ partial "utils/icon" "moon" }} </span> -->
-<!-- </button> -->
+<button class="toggle-theme" aria-label="Toggle Theme" title="Toggle Theme" onclick="toggleTheme()">
+  <span class="theme-icon light"> {{ partial "utils/icon" "sun" }} </span>
+  <span class="theme-icon dark"> {{ partial "utils/icon" "moon" }} </span>
+</button>
 
-<script> 
-
-  const giscus = new Giscus();
-
+<script>
   document.addEventListener('DOMContentLoaded', function () {
     const theme = localStorage.getItem('theme');
 
@@ -21,21 +18,24 @@
     const html = document.querySelector('html');
     localStorage.setItem('theme', theme);
 
-    if (theme === 'dark') {
-      if (!html.classList.contains('dark')) {
-        document.querySelector('html').classList.add('dark');
-      }
-
-      document.querySelector('.theme-icon.dark').style.display = 'none';
-      document.querySelector('.theme-icon.light').style.display = 'block';
-
-    } else {
+    if (theme === 'light') {
       if (html.classList.contains('dark')) {
         document.querySelector('html').classList.remove('dark');
       }
 
       document.querySelector('.theme-icon.light').style.display = 'none';
       document.querySelector('.theme-icon.dark').style.display = 'block';
+      document.querySelector('#markup-hightlight-light').disabled = true;
+      document.querySelector('#markup-hightlight-dark').disabled = false;
+    } else {
+      if (!html.classList.contains('dark')) {
+        document.querySelector('html').classList.add('dark');
+      }
+
+      document.querySelector('.theme-icon.dark').style.display = 'none';
+      document.querySelector('.theme-icon.light').style.display = 'block'; 
+      document.querySelector('#markup-hightlight-light').disabled = false;
+      document.querySelector('#markup-hightlight-dark').disabled = true; 
     }
   }
 
@@ -43,9 +43,9 @@
     const theme = localStorage.getItem('theme');
 
     if (theme === 'light') {
-      setTheme('dark'); 
+      setTheme('dark');
     } else {
-      setTheme('light'); 
+      setTheme('light');
     }
   }
 </script>

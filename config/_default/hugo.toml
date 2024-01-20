@@ -19,9 +19,8 @@ paginate = 30
     lineNoStart = 1
     lineNos = false
     lineNumbersInTable = false
-    noClasses = true
-    noHl = false
-    style = 'monokailight'
+    noClasses = false
+    noHl = false 
     tabWidth = 4
 
 [outputs]

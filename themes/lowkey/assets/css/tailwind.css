@@ -482,7 +482,7 @@
 
 
   .mute.sidenote {
-    @apply font-inconsolata;
+    @apply font-inconsolata dark:bg-gray-800;
     margin-top: 0;
     margin-bottom: 14px;
     position: relative;
@@ -497,12 +497,13 @@
   }
 
   .mute.sidenote:before {
+    @apply dark:border-gray-800;
     display: block;
     content: "";
     width: 0;
     height: 0;
     border-top: 10px solid #f5f6fa;
-    border-left: 10px solid transparent;
+    border-left: 10px solid transparent !important;
     position: absolute;
     top: 10px;
     left: -10px;
