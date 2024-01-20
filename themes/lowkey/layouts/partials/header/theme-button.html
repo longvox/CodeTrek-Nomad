@@ -6,10 +6,15 @@
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     setTheme();
-    checkLoadIframeGiscus();
   });
+  checkLoadIframeGiscus();
 
   function setTheme(theme) {
+    // if theme is null then set theme current
+    if (!theme) {
+      theme = localStorage.getItem('theme');
+    }
+
     const html = document.querySelector('html');
     localStorage.setItem('theme', theme);
 
@@ -29,38 +34,43 @@
       }
 
       document.querySelector('.theme-icon.dark').style.display = 'none';
-      document.querySelector('.theme-icon.light').style.display = 'block'; 
+      document.querySelector('.theme-icon.light').style.display = 'block';
       document.querySelector('#markup-hightlight-light').disabled = false;
-      document.querySelector('#markup-hightlight-dark').disabled = true; 
+      document.querySelector('#markup-hightlight-dark').disabled = true;
       sendMessage({setConfig: {theme: 'dark_dimmed'}});
     }
   }
 
   function checkLoadIframeGiscus() {
-    var checkLoad = setInterval(function () {
+    document.addEventListener("DOMContentLoaded", () => { 
       const iframe = document.querySelector('iframe.giscus-frame');
-      if (!iframe) return;
 
-      toggleTheme();  
-      clearInterval(checkLoad);
-    }, 0);
+      var checkLoadIframe = setInterval(() => { 
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        // TODO: optimize this code to perfect but current, i saw giscus comment delay change theme when loaded 
+        document.querySelector("iframe.giscus-frame").addEventListener("load", () => {
+          setTimeout(() => {
+            setTheme();
+          }, 0);
+        });
+        clearInterval(checkLoadIframe);
+      }, 0);
+
+      setTimeout(() => {
+        setTheme();
+      }, 2e3);
+    })
   }
 
   function sendMessage(message) {
     const iframe = document.querySelector('iframe.giscus-frame');
-    if (!iframe) return; 
-    iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+    if (!iframe) return;
+    iframe.contentWindow.postMessage({giscus: message}, 'https://giscus.app');
   }
 
   function toggleTheme() {
     const theme = localStorage.getItem('theme');
-
-    if (!theme || theme === 'light') {
-      setTheme('dark');
-    } else {
-      setTheme('light');
-    }
+    setTheme(theme === 'light' ? 'dark' : 'light');
   }
-
-
 </script>
