@@ -27,6 +27,11 @@
       document.querySelector('.theme-icon.dark').style.display = 'block';
       document.querySelector('#markup-hightlight-light').disabled = true;
       document.querySelector('#markup-hightlight-dark').disabled = false;
+      sendMessage({
+        setConfig: {
+          theme: 'light'
+        }
+      });
     } else {
       if (!html.classList.contains('dark')) {
         document.querySelector('html').classList.add('dark');
@@ -36,6 +41,11 @@
       document.querySelector('.theme-icon.light').style.display = 'block'; 
       document.querySelector('#markup-hightlight-light').disabled = false;
       document.querySelector('#markup-hightlight-dark').disabled = true; 
+      sendMessage({
+        setConfig: {
+          theme: 'dark'
+        }
+      });
     }
   }
 
@@ -47,5 +57,11 @@
     } else {
       setTheme('light');
     }
+  }
+
+  function sendMessage(message) {
+    const iframe = document.querySelector('iframe.giscus-frame');
+    if (!iframe) return; 
+    iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
   }
 </script>
