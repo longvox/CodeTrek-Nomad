@@ -5,13 +5,7 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const theme = localStorage.getItem('theme');
-
-    if (!theme || theme === 'light') {
-      setTheme('light');
-    } else {
-      setTheme(theme);
-    }
+    setTheme();
   });
 
   function setTheme(theme) {
@@ -27,11 +21,7 @@
       document.querySelector('.theme-icon.dark').style.display = 'block';
       document.querySelector('#markup-hightlight-light').disabled = true;
       document.querySelector('#markup-hightlight-dark').disabled = false;
-      sendMessage({
-        setConfig: {
-          theme: 'light'
-        }
-      });
+      sendMessage({setConfig: {theme: 'light'}});
     } else {
       if (!html.classList.contains('dark')) {
         document.querySelector('html').classList.add('dark');
@@ -41,18 +31,14 @@
       document.querySelector('.theme-icon.light').style.display = 'block'; 
       document.querySelector('#markup-hightlight-light').disabled = false;
       document.querySelector('#markup-hightlight-dark').disabled = true; 
-      sendMessage({
-        setConfig: {
-          theme: 'dark'
-        }
-      });
+      sendMessage({setConfig: {theme: 'dark_dimmed'}});
     }
   }
 
   function toggleTheme() {
     const theme = localStorage.getItem('theme');
 
-    if (theme === 'light') {
+    if (!theme || theme === 'light') {
       setTheme('dark');
     } else {
       setTheme('light');
