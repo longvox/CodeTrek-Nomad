@@ -4,10 +4,11 @@
 </button>
 
 <script>
+  loadGiscusWithTheme();
   document.addEventListener('DOMContentLoaded', function () {
     setTheme();
   });
-  checkLoadIframeGiscus();
+  
 
   function setTheme(theme) {
     // if theme is null then set theme current
@@ -41,26 +42,14 @@
     }
   }
 
-  function checkLoadIframeGiscus() {
-    document.addEventListener("DOMContentLoaded", () => { 
-      const iframe = document.querySelector('iframe.giscus-frame');
-
-      var checkLoadIframe = setInterval(() => { 
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        // TODO: optimize this code to perfect but current, i saw giscus comment delay change theme when loaded 
-        document.querySelector("iframe.giscus-frame").addEventListener("load", () => {
-          setTimeout(() => {
-            setTheme();
-          }, 0);
-        });
-        clearInterval(checkLoadIframe);
-      }, 0);
-
-      setTimeout(() => {
-        setTheme();
-      }, 2e3);
-    })
+  function loadGiscusWithTheme() {
+    const theme = localStorage.getItem('theme');
+    var checkLoadGiscus = setInterval(() => {  
+      var giscus = document.querySelector('#giscus-comment');
+      if (!giscus) return;
+      giscus.setAttribute('data-theme', theme === 'light' ? 'light' : 'dark_dimmed');
+      clearInterval(checkLoadGiscus);
+    }, 0);
   }
 
   function sendMessage(message) {

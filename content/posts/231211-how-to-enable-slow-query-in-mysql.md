@@ -63,7 +63,7 @@ Thay đổi log file slow queries:
 SET GLOBAL slow_query_log_file = '/path/filename';
 ```
 Thực hiện bài test kiểm tra:
-```
+```sql
 SELECT SLEEP(10);
 ```
 Kiểm tra file lưu trữ hoặc dùng lệnh sau để kiểm tra:
