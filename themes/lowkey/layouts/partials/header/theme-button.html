@@ -6,6 +6,7 @@
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     setTheme();
+    checkLoadIframeGiscus();
   });
 
   function setTheme(theme) {
@@ -35,6 +36,22 @@
     }
   }
 
+  function checkLoadIframeGiscus() {
+    var checkLoad = setInterval(function () {
+      const iframe = document.querySelector('iframe.giscus-frame');
+      if (!iframe) return;
+
+      toggleTheme();  
+      clearInterval(checkLoad);
+    }, 0);
+  }
+
+  function sendMessage(message) {
+    const iframe = document.querySelector('iframe.giscus-frame');
+    if (!iframe) return; 
+    iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+  }
+
   function toggleTheme() {
     const theme = localStorage.getItem('theme');
 
@@ -45,9 +62,5 @@
     }
   }
 
-  function sendMessage(message) {
-    const iframe = document.querySelector('iframe.giscus-frame');
-    if (!iframe) return; 
-    iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-  }
+
 </script>
