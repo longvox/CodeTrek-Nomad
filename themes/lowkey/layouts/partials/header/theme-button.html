@@ -4,7 +4,7 @@
 </button>
 
 <script>
-  loadGiscusWithTheme();
+  loadGiscusWithDefaultTheme();
   document.addEventListener('DOMContentLoaded', function () {
     setTheme();
   });
@@ -42,7 +42,7 @@
     }
   }
 
-  function loadGiscusWithTheme() {
+  function loadGiscusWithDefaultTheme() {
     const theme = localStorage.getItem('theme');
     var checkLoadGiscus = setInterval(() => {  
       var giscus = document.querySelector('#giscus-comment');
