@@ -1,16 +1,14 @@
 ---
-title: "Behavioral Pattern [6/11] - Memento Pattern trong JavaScript/TypeScript"
+title: "Behavioral Pattern [6/11] - Memento Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-07-02
 description: "Tìm hiểu về Memento Pattern - một mẫu thiết kế hành vi cho phép lưu trữ và khôi phục trạng thái của đối tượng mà không vi phạm nguyên tắc đóng gói."
 slug: "memento-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Behavioral Patterns
 ---
@@ -202,7 +200,7 @@ history.undo();
 console.log(editor.getContent()); // "Hello"
 ```
 
-## 3. Triển khai Memento Pattern trong JavaScript/TypeScript
+## 3. Triển khai Memento Pattern trong JavaScript / TypeScript
 
 ### 3.1. Ví dụ về Game State
 
@@ -430,6 +428,6 @@ console.log(form.getState());
 
 ## 6. Kết luận
 
-Memento Pattern là một công cụ mạnh mẽ cho việc quản lý trạng thái trong ứng dụng JavaScript/TypeScript. Pattern này đặc biệt hữu ích khi cần lưu trữ và khôi phục trạng thái của đối tượng một cách an toàn và hiệu quả.
+Memento Pattern là một công cụ mạnh mẽ cho việc quản lý trạng thái trong ứng dụng JavaScript / TypeScript. Pattern này đặc biệt hữu ích khi cần lưu trữ và khôi phục trạng thái của đối tượng một cách an toàn và hiệu quả.
 
 Tuy nhiên, cần cân nhắc kỹ về việc quản lý bộ nhớ và hiệu suất khi sử dụng pattern này, đặc biệt là trong các ứng dụng có nhiều trạng thái cần lưu trữ.

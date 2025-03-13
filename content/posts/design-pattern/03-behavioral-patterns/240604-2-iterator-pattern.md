@@ -1,16 +1,14 @@
 ---
-title: "Behavioral Pattern [2/11] - Iterator Pattern trong JavaScript/TypeScript"
+title: "Behavioral Pattern [2/11] - Iterator Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-06-04
 description: "Iterator Pattern là một mẫu thiết kế hành vi cho phép duyệt qua các phần tử của một tập hợp mà không cần biết về cấu trúc bên trong của nó. Bài viết này phân tích cách triển khai Iterator Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "iterator-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Iterator
   - Behavioral Patterns

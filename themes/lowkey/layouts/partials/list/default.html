@@ -1,41 +1,38 @@
 <article class="flex flex-col">
-  <div class="leading-3">
-    <span class="date">
+  <div class="leading-2 flex flex-col items-left justify-start">
+    <span class="date inline-block min-w-[100px]">
       <time datetime="{{ .PublishDate }}" title='{{ .PublishDate.Format "Mon, Jan 2, 2006, 3:04 PM MST" }}'>
         {{ .PublishDate.Format "2006-01-02" }}
       </time>
-    </span>
-    {{ with (.GetTerms "tags") }}
+      {{ with (.GetTerms "tags") }}
       <div class="tags-list-homepage">
-      {{ range . }}
-        <a href="{{ .RelPermalink }}" alt="{{ .LinkTitle }}">
-          {{ .LinkTitle }}
-        </a>
-      {{ end }}
+        {{ range . }}
+          <a href="{{ .RelPermalink }}" alt="{{ .LinkTitle }}">
+            {{ .LinkTitle | strings.TrimSpace }}
+          </a>
+        {{ end }}
       </div>
-    {{ end }}
+      {{ end }}
+    </span>
+    <h1 class="leading-[0px] inline-block mb-0">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h1>
   </div>
 
-
-  <h1 class="leading-none">
-    <a href="{{ .Permalink }}">{{ .Title }}</a>
-  </h1>
-  
-
-  <div class="description">
+  <!-- <div class="description">
     {{ if .Params.description }}
       {{ .Params.description }}
     {{ else if .Summary }}
       {{ .Summary }}
     {{ end }}
-  </div>
+  </div> -->
 
-  <div class="mt-2">
+  <!-- <div class="mt-2">
     <a class="read-more" href="{{ .Permalink }}">
       {{ i18n "readMore" }}
       <span class="w-4 h-4 stroke-2">
         {{ partial "utils/icon" "arrow-right" }}
       </span>
     </a>
-  </div>
+  </div> -->
 </article>

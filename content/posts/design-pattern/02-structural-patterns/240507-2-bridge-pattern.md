@@ -1,16 +1,14 @@
 ---
-title: "Structural Pattern [2/7] - Bridge Pattern trong JavaScript/TypeScript"
+title: "Structural Pattern [2/7] - Bridge Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-05-07
 description: "Bridge Pattern là một mẫu thiết kế cấu trúc cho phép tách biệt abstraction và implementation, giúp chúng có thể thay đổi độc lập. Bài viết này phân tích cách triển khai Bridge Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "bridge-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Bridge
   - Structural Patterns

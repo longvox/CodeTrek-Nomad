@@ -1,16 +1,14 @@
 ---
-title: "Creational Pattern [5/6] - Prototype Pattern trong JavaScript/TypeScript"
+title: "Creational Pattern [5/6] - Prototype Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-04-16
 description: "Prototype Pattern là một mẫu thiết kế tạo đối tượng cho phép sao chép các đối tượng hiện có mà không làm code phụ thuộc vào các lớp cụ thể của chúng. Bài viết này phân tích cách triển khai Prototype Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "prototype-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Prototype
   - Creational Patterns

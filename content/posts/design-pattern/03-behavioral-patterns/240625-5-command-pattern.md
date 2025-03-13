@@ -1,16 +1,14 @@
 ---
-title: "Behavioral Pattern [5/11] - Command Pattern trong JavaScript/TypeScript"
+title: "Behavioral Pattern [5/11] - Command Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-06-25
 description: "Command Pattern là một mẫu thiết kế hành vi cho phép bạn đóng gói một yêu cầu thành một đối tượng độc lập. Bài viết này phân tích cách triển khai Command Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "command-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Command
   - Behavioral Patterns

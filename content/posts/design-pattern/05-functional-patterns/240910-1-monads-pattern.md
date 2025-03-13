@@ -1,16 +1,14 @@
 ---
-title: "Functional Pattern [1/4] - Monads Pattern trong JavaScript/TypeScript"
+title: "Functional Pattern [1/4] - Monads Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-09-10
 description: "Monads là một mẫu thiết kế quan trọng trong lập trình hàm, giúp xử lý các giá trị có thể null và các tác vụ bất đồng bộ một cách an toàn. Bài viết này phân tích cách triển khai Monads trong JavaScript và TypeScript."
 slug: "monads-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Monads Pattern
   - Functional Programming

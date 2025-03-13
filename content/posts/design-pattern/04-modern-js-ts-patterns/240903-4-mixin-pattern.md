@@ -1,16 +1,14 @@
 ---
-title: "Modern JS/TS Pattern [4/4] - Mixin Pattern trong JavaScript/TypeScript"
+title: "Modern JS/TS Pattern [4/4] - Mixin Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-09-03
 description: "Mixin Pattern là một mẫu thiết kế cho phép tái sử dụng code thông qua việc kết hợp các class. Bài viết này phân tích cách triển khai Mixin Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "mixin-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Mixin Pattern
   - Modern Patterns

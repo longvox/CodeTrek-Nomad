@@ -1,16 +1,14 @@
 ---
-title: "Behavioral Pattern [10/11] - Template Method Pattern trong JavaScript/TypeScript"
+title: "Behavioral Pattern [10/11] - Template Method Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-07-30
 description: "Template Method Pattern là một mẫu thiết kế hành vi định nghĩa bộ khung của một thuật toán trong một phương thức, cho phép các lớp con ghi đè các bước cụ thể của thuật toán mà không thay đổi cấu trúc của nó. Bài viết này phân tích cách triển khai Template Method Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "template-method-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Template Method
   - Behavioral Patterns
@@ -444,4 +442,4 @@ inStoreProcessor.processOrder();
 
 ## 6. Kết luận
 
-Template Method Pattern là một mẫu thiết kế mạnh mẽ cho phép định nghĩa bộ khung của thuật toán và cho phép các lớp con tùy chỉnh các bước cụ thể. Pattern này đặc biệt hữu ích trong JavaScript/TypeScript khi làm việc với các hệ thống có quy trình xử lý theo các bước cố định. Tuy nhiên, cần cân nhắc về tính linh hoạt và độ phức tạp khi sử dụng pattern này.
+Template Method Pattern là một mẫu thiết kế mạnh mẽ cho phép định nghĩa bộ khung của thuật toán và cho phép các lớp con tùy chỉnh các bước cụ thể. Pattern này đặc biệt hữu ích trong JavaScript / TypeScript khi làm việc với các hệ thống có quy trình xử lý theo các bước cố định. Tuy nhiên, cần cân nhắc về tính linh hoạt và độ phức tạp khi sử dụng pattern này.

@@ -1,16 +1,14 @@
 ---
-title: "Structural Pattern [4/7] - Decorator Pattern trong JavaScript/TypeScript"
+title: "Structural Pattern [4/7] - Decorator Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-05-21
 description: "Tìm hiểu về Decorator Pattern - một mẫu thiết kế cấu trúc cho phép thêm các hành vi mới vào đối tượng một cách linh hoạt mà không ảnh hưởng đến các đối tượng khác cùng lớp."
 slug: "decorator-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Structural Patterns
 ---
@@ -149,7 +147,7 @@ console.log(coffeeWithMilkAndSugar.description()); // "Simple coffee, with milk,
 console.log(coffeeWithMilkAndSugar.cost()); // 17
 ```
 
-## 3. Triển khai Decorator Pattern trong JavaScript/TypeScript
+## 3. Triển khai Decorator Pattern trong JavaScript / TypeScript
 
 ### 3.1. Sử dụng Class Decorators trong TypeScript
 

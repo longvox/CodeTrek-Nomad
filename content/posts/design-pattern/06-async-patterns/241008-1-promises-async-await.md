@@ -1,16 +1,14 @@
 ---
-title: "Async Pattern [1/3] - Promises & Async/Await trong JavaScript/TypeScript"
+title: "Async Pattern [1/3] - Promises & Async/Await trong JavaScript / TypeScript"
 draft: false
 date: 2024-10-08
 description: "Promises và Async/Await là hai mẫu thiết kế cơ bản cho xử lý bất đồng bộ trong JavaScript và TypeScript. Bài viết này phân tích cách triển khai và ứng dụng của chúng trong các tình huống thực tế."
 slug: "promises-async-await-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Promises
   - Async/Await
@@ -356,4 +354,4 @@ Promises và Async/Await phù hợp khi:
 
 ## 8. Kết luận
 
-Promises và Async/Await là hai mẫu thiết kế cơ bản và quan trọng trong JavaScript/TypeScript hiện đại. Chúng giúp xử lý code bất đồng bộ một cách dễ dàng và hiệu quả, đồng thời cung cấp cách xử lý lỗi nhất quán.
+Promises và Async/Await là hai mẫu thiết kế cơ bản và quan trọng trong JavaScript / TypeScript hiện đại. Chúng giúp xử lý code bất đồng bộ một cách dễ dàng và hiệu quả, đồng thời cung cấp cách xử lý lỗi nhất quán.

@@ -1,16 +1,14 @@
 ---
-title: "Structural Pattern [3/7] - Composite Pattern trong JavaScript/TypeScript"
+title: "Structural Pattern [3/7] - Composite Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-05-14
 description: "Composite Pattern là một mẫu thiết kế cấu trúc cho phép bạn tổ chức các đối tượng thành cấu trúc cây và làm việc với chúng như với các đối tượng riêng lẻ. Bài viết này phân tích cách triển khai Composite Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "composite-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Composite
   - Structural Patterns

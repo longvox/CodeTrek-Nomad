@@ -1,16 +1,14 @@
 ---
-title: "Behavioral Pattern [9/11] - Strategy Pattern trong JavaScript/TypeScript"
+title: "Behavioral Pattern [9/11] - Strategy Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-07-23
 description: "Strategy Pattern là một mẫu thiết kế hành vi cho phép định nghĩa một họ các thuật toán, đóng gói từng thuật toán và làm cho chúng có thể hoán đổi cho nhau. Bài viết này phân tích cách triển khai Strategy Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "strategy-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Strategy
   - Behavioral Patterns
@@ -482,4 +480,4 @@ console.log('Lỗi:', validator.getError());
 
 ## 6. Kết luận
 
-Strategy Pattern là một mẫu thiết kế mạnh mẽ cho phép quản lý và thay đổi thuật toán một cách linh hoạt. Pattern này đặc biệt hữu ích trong JavaScript/TypeScript khi làm việc với các hệ thống cần thay đổi thuật toán trong thời gian chạy. Tuy nhiên, cần cân nhắc về số lượng lớp và độ phức tạp khi sử dụng pattern này.
+Strategy Pattern là một mẫu thiết kế mạnh mẽ cho phép quản lý và thay đổi thuật toán một cách linh hoạt. Pattern này đặc biệt hữu ích trong JavaScript / TypeScript khi làm việc với các hệ thống cần thay đổi thuật toán trong thời gian chạy. Tuy nhiên, cần cân nhắc về số lượng lớp và độ phức tạp khi sử dụng pattern này.

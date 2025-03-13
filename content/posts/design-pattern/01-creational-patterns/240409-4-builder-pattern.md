@@ -1,16 +1,14 @@
 ---
-title: "Creational Pattern [4/6] - Builder Pattern trong JavaScript/TypeScript"
+title: "Creational Pattern [4/6] - Builder Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-04-09
 description: "Builder Pattern là một mẫu thiết kế tạo đối tượng cho phép xây dựng các đối tượng phức tạp từng bước một. Bài viết này phân tích cách triển khai Builder Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "builder-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Builder
   - Creational Patterns

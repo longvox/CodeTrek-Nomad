@@ -1,16 +1,14 @@
 ---
-title: "Creational Pattern [1/6] - Singleton Pattern trong JavaScript/TypeScript"
+title: "Creational Pattern [1/6] - Singleton Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-03-19
 description: "Singleton là một trong những mẫu thiết kế đơn giản và phổ biến nhất. Bài viết này phân tích cách triển khai Singleton trong JavaScript và TypeScript, khi nào nên sử dụng và những cạm bẫy cần tránh."
 slug: "singleton-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Singleton
   - Creational Patterns

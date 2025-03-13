@@ -1,16 +1,14 @@
 ---
-title: "Behavioral Pattern [8/11] - State Pattern trong JavaScript/TypeScript"
+title: "Behavioral Pattern [8/11] - State Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-07-16
 description: "State Pattern là một mẫu thiết kế hành vi cho phép một đối tượng thay đổi hành vi của nó khi trạng thái nội bộ thay đổi. Bài viết này phân tích cách triển khai State Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "state-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - State
   - Behavioral Patterns
@@ -663,4 +661,4 @@ task.start();
 
 ## 6. Kết luận
 
-State Pattern là một mẫu thiết kế mạnh mẽ cho phép quản lý trạng thái và hành vi của đối tượng một cách linh hoạt. Pattern này đặc biệt hữu ích trong JavaScript/TypeScript khi làm việc với các đối tượng có nhiều trạng thái và hành vi phức tạp. Tuy nhiên, cần cân nhắc về số lượng lớp và độ phức tạp khi sử dụng pattern này.
+State Pattern là một mẫu thiết kế mạnh mẽ cho phép quản lý trạng thái và hành vi của đối tượng một cách linh hoạt. Pattern này đặc biệt hữu ích trong JavaScript / TypeScript khi làm việc với các đối tượng có nhiều trạng thái và hành vi phức tạp. Tuy nhiên, cần cân nhắc về số lượng lớp và độ phức tạp khi sử dụng pattern này.

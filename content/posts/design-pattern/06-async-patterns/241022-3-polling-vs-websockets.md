@@ -1,16 +1,14 @@
 ---
-title: "Async Pattern [3/3] - Polling vs WebSockets trong JavaScript/TypeScript"
+title: "Async Pattern [3/3] - Polling vs WebSockets trong JavaScript / TypeScript"
 draft: false
 date: 2024-10-22
 description: "So sánh và phân tích hai cách tiếp cận real-time communication: Polling và WebSockets. Tìm hiểu cách triển khai, ưu nhược điểm và khi nào nên sử dụng mỗi phương pháp trong JavaScript và TypeScript."
 slug: "polling-vs-websockets-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Real-time Communication
   - WebSockets

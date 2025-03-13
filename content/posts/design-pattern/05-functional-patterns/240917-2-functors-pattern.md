@@ -1,16 +1,14 @@
 ---
-title: "Functional Pattern [2/4] - Functors Pattern trong JavaScript/TypeScript"
+title: "Functional Pattern [2/4] - Functors Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-09-17
 description: "Functors là một mẫu thiết kế quan trọng trong lập trình hàm, cho phép áp dụng các hàm lên các giá trị được bọc trong một container. Bài viết này phân tích cách triển khai Functors trong JavaScript và TypeScript."
 slug: "functors-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Functors Pattern
   - Functional Programming

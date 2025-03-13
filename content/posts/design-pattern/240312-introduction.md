@@ -5,12 +5,10 @@ date: 2024-03-12
 description: "Khi làm việc với JavaScript và TypeScript, việc hiểu và áp dụng các mẫu thiết kế không chỉ giúp code sạch hơn mà còn giúp giải quyết các vấn đề phức tạp một cách hiệu quả. Bài viết này sẽ giới thiệu tổng quan về các mẫu thiết kế và tại sao chúng quan trọng trong JS/TS."
 slug: "gioi-thieu-ve-cac-mau-thiet-ke-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Clean Code
 ---
@@ -58,7 +56,7 @@ const connection2 = new DatabaseConnection();
 console.log(connection1 === connection2); // true - cùng một instance
 ```
 
-## 2. Tại sao sử dụng mẫu thiết kế trong JavaScript/TypeScript?
+## 2. Tại sao sử dụng mẫu thiết kế trong JavaScript / TypeScript?
 
 JavaScript và TypeScript có những đặc thù riêng khiến việc áp dụng các mẫu thiết kế trở nên thú vị và đôi khi khác biệt so với các ngôn ngữ khác. Có một số lý do chính để sử dụng các mẫu thiết kế:
 

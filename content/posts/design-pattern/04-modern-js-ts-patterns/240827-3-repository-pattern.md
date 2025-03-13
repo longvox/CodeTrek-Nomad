@@ -1,16 +1,14 @@
 ---
-title: "Modern JS/TS Pattern [3/4] - Repository Pattern trong JavaScript/TypeScript"
+title: "Modern JS/TS Pattern [3/4] - Repository Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-08-27
 description: "Repository Pattern là một mẫu thiết kế giúp tách biệt logic truy cập dữ liệu khỏi logic nghiệp vụ. Bài viết này phân tích cách triển khai Repository Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "repository-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Repository Pattern
   - Modern Patterns

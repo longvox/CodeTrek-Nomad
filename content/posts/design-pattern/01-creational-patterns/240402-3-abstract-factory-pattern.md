@@ -1,16 +1,14 @@
 ---
-title: "Creational Pattern [3/6] - Abstract Factory Pattern trong JavaScript/TypeScript"
+title: "Creational Pattern [3/6] - Abstract Factory Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-04-02
 description: "Abstract Factory là một mẫu thiết kế tạo đối tượng mạnh mẽ cho phép tạo các họ đối tượng liên quan. Bài viết này phân tích cách triển khai Abstract Factory trong JavaScript và TypeScript, so sánh với Factory Method và các trường hợp sử dụng thực tế."
 slug: "abstract-factory-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Abstract Factory
   - Creational Patterns

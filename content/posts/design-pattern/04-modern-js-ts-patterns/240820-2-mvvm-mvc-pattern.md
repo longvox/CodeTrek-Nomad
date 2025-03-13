@@ -1,16 +1,14 @@
 ---
-title: "Modern JS/TS Pattern [2/4] - MVVM & MVC Pattern trong JavaScript/TypeScript"
+title: "Modern JS/TS Pattern [2/4] - MVVM & MVC Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-08-20
 description: "MVVM và MVC là hai mẫu thiết kế kiến trúc phổ biến trong phát triển ứng dụng web. Bài viết này phân tích cách triển khai MVVM và MVC Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "mvvm-mvc-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - MVVM
   - MVC

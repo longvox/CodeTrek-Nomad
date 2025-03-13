@@ -1,16 +1,14 @@
 ---
-title: "Functional Pattern [3/4] - Function Composition Pattern trong JavaScript/TypeScript"
+title: "Functional Pattern [3/4] - Function Composition Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-09-24
 description: "Function Composition là một mẫu thiết kế quan trọng trong lập trình hàm, cho phép kết hợp nhiều hàm đơn giản để tạo ra các hàm phức tạp hơn. Bài viết này phân tích cách triển khai Function Composition trong JavaScript và TypeScript."
 slug: "function-composition-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Function Composition
   - Functional Programming

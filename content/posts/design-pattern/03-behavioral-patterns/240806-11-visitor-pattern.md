@@ -1,16 +1,14 @@
 ---
-title: "Behavioral Pattern [11/11] - Visitor Pattern trong JavaScript/TypeScript"
+title: "Behavioral Pattern [11/11] - Visitor Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-08-06
 description: "Visitor Pattern là một mẫu thiết kế hành vi cho phép thêm các thao tác mới vào một đối tượng mà không cần thay đổi đối tượng đó. Bài viết này phân tích cách triển khai Visitor Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "visitor-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Visitor
   - Behavioral Patterns
@@ -570,4 +568,4 @@ console.log(ast.accept(pythonGenerator));
 
 ## 6. Kết luận
 
-Visitor Pattern là một mẫu thiết kế mạnh mẽ cho phép thêm các thao tác mới vào cấu trúc đối tượng mà không cần thay đổi cấu trúc đó. Pattern này đặc biệt hữu ích trong JavaScript/TypeScript khi làm việc với các cấu trúc đối tượng phức tạp và cần thực hiện nhiều thao tác khác nhau. Tuy nhiên, cần cân nhắc về tính phức tạp và sự phụ thuộc khi sử dụng pattern này.
+Visitor Pattern là một mẫu thiết kế mạnh mẽ cho phép thêm các thao tác mới vào cấu trúc đối tượng mà không cần thay đổi cấu trúc đó. Pattern này đặc biệt hữu ích trong JavaScript / TypeScript khi làm việc với các cấu trúc đối tượng phức tạp và cần thực hiện nhiều thao tác khác nhau. Tuy nhiên, cần cân nhắc về tính phức tạp và sự phụ thuộc khi sử dụng pattern này.

@@ -1,16 +1,14 @@
 ---
-title: "Behavioral Pattern [1/11] - Interpreter Pattern trong JavaScript/TypeScript"
+title: "Behavioral Pattern [1/11] - Interpreter Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-05-28
 description: "Interpreter Pattern là một mẫu thiết kế hành vi cho phép định nghĩa ngữ pháp cho một ngôn ngữ và cung cấp một bộ thông dịch để xử lý các biểu thức trong ngôn ngữ đó. Bài viết này phân tích cách triển khai Interpreter Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "interpreter-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Interpreter
   - Behavioral Patterns

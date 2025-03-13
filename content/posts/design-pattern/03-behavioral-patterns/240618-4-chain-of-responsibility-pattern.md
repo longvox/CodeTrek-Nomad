@@ -1,16 +1,14 @@
 ---
-title: "Behavioral Pattern [4/11] - Chain of Responsibility Pattern trong JavaScript/TypeScript"
+title: "Behavioral Pattern [4/11] - Chain of Responsibility Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-06-18
 description: "Chain of Responsibility Pattern là một mẫu thiết kế hành vi cho phép bạn chuyển yêu cầu dọc theo một chuỗi các handler. Bài viết này phân tích cách triển khai Chain of Responsibility Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "chain-of-responsibility-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Chain of Responsibility
   - Behavioral Patterns

@@ -1,16 +1,14 @@
 ---
-title: "Creational Pattern [6/6] - Module Pattern trong JavaScript/TypeScript"
+title: "Creational Pattern [6/6] - Module Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-04-23
 description: "Module Pattern là một mẫu thiết kế đặc biệt quan trọng trong JavaScript để tổ chức và đóng gói code. Bài viết này phân tích cách triển khai Module Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "module-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Module
   - Creational Patterns

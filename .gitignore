@@ -22,6 +22,8 @@ config.toml
 # Remove this line if you're using a different deployment method
 !/public/
 
+/public
+
 # Ignore the Hugo workspace file
 .hugo_workspace
 

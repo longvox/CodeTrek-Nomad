@@ -1,17 +1,15 @@
 ---
 title: "Structural Pattern [5
-/7] - Facade Pattern trong JavaScript/TypeScript"
+/7] - Facade Pattern trong JavaScript / TypeScript"
 draft: false
-date: 2024-05-28
+date: 2024-05-22
 description: "Facade Pattern là một mẫu thiết kế cấu trúc cung cấp một interface đơn giản cho một hệ thống phức tạp. Bài viết này phân tích cách triển khai Facade Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "facade-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Facade
   - Structural Patterns

@@ -1,16 +1,14 @@
 ---
-title: "Modern JS/TS Pattern [1/4] - Dependency Injection Pattern trong JavaScript/TypeScript"
+title: "Modern JS/TS Pattern [1/4] - Dependency Injection Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-08-13
 description: "Dependency Injection Pattern là một mẫu thiết kế hiện đại giúp quản lý sự phụ thuộc giữa các thành phần trong ứng dụng. Bài viết này phân tích cách triển khai Dependency Injection Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "dependency-injection-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Dependency Injection
   - Modern Patterns
@@ -685,4 +683,4 @@ demo().catch(console.error);
 
 ## 6. Kết luận
 
-Dependency Injection Pattern là một mẫu thiết kế mạnh mẽ giúp quản lý sự phụ thuộc giữa các thành phần trong ứng dụng. Pattern này đặc biệt hữu ích trong JavaScript/TypeScript khi làm việc với các ứng dụng lớn và cần tính module hóa cao. Tuy nhiên, cần cân nhắc về tính phức tạp và overhead khi sử dụng pattern này.
+Dependency Injection Pattern là một mẫu thiết kế mạnh mẽ giúp quản lý sự phụ thuộc giữa các thành phần trong ứng dụng. Pattern này đặc biệt hữu ích trong JavaScript / TypeScript khi làm việc với các ứng dụng lớn và cần tính module hóa cao. Tuy nhiên, cần cân nhắc về tính phức tạp và overhead khi sử dụng pattern này.

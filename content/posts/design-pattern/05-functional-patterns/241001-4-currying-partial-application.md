@@ -1,16 +1,14 @@
 ---
-title: "Functional Pattern [4/4] - Currying & Partial Application trong JavaScript/TypeScript"
+title: "Functional Pattern [4/4] - Currying & Partial Application trong JavaScript / TypeScript"
 draft: false
 date: 2024-10-01
 description: "Currying và Partial Application là hai kỹ thuật quan trọng trong lập trình hàm, cho phép biến đổi hàm nhiều tham số thành chuỗi các hàm một tham số. Bài viết này phân tích cách triển khai và ứng dụng của chúng trong JavaScript và TypeScript."
 slug: "currying-partial-application-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Currying
   - Partial Application

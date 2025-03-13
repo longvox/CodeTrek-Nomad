@@ -126,7 +126,7 @@
   }
 
   body {
-    @apply bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-justify;
+    @apply bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300;
   }
 
   h1,
@@ -280,7 +280,7 @@
   }
 
   #content h1>a {
-    @apply no-underline text-xl font-bold hover:underline text-gray-900 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100;
+    @apply no-underline text-xl font-normal hover:underline text-gray-900 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100;
   }
 
   #content .meta {
@@ -380,11 +380,11 @@
   }
 
   #content .tags-list-homepage {
-    @apply gap-y-2 ml-1 inline-block font-inconsolata;
+    @apply gap-y-0 inline-block font-inconsolata;
   }
 
   #content .tags-list-homepage a {
-    @apply text-sm no-underline;
+    @apply text-sm no-underline font-normal;
   }
 
   #content .tags-list-homepage a::after {

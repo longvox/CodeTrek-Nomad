@@ -1,16 +1,14 @@
 ---
-title: "Behavioral Pattern [3/11] - Mediator Pattern trong JavaScript/TypeScript"
+title: "Behavioral Pattern [3/11] - Mediator Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-06-11
 description: "Mediator Pattern là một mẫu thiết kế hành vi giúp giảm sự phụ thuộc giữa các đối tượng bằng cách tập trung xử lý tương tác vào một đối tượng trung gian. Bài viết này phân tích cách triển khai Mediator Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "mediator-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Mediator
   - Behavioral Patterns

@@ -1,16 +1,14 @@
 ---
-title: "Creational Pattern [2/6] - Factory Method Pattern trong JavaScript/TypeScript"
+title: "Creational Pattern [2/6] - Factory Method Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-03-26
 description: "Factory Method là một mẫu thiết kế tạo đối tượng linh hoạt và mạnh mẽ. Bài viết này phân tích cách triển khai Factory Method trong JavaScript và TypeScript, trường hợp sử dụng thực tế và so sánh với các mẫu tạo đối tượng khác."
 slug: "factory-method-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Factory Method
   - Creational Patterns
@@ -525,7 +523,7 @@ Trong ví dụ này, `DocumentFactory` cung cấp các static factory methods đ
 
 ## 4. Ví dụ thực tế
 
-Hãy xem xét một số ví dụ thực tế về Factory Method Pattern trong JavaScript/TypeScript.
+Hãy xem xét một số ví dụ thực tế về Factory Method Pattern trong JavaScript / TypeScript.
 
 ### 4.1 Factory Method trong UI Component Library
 

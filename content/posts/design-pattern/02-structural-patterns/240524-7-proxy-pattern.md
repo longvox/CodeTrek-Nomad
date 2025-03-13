@@ -1,16 +1,14 @@
 ---
-title: "Structural Pattern [7/7] - Proxy Pattern trong JavaScript/TypeScript"
+title: "Structural Pattern [7/7] - Proxy Pattern trong JavaScript / TypeScript"
 draft: false
-date: 2024-06-11
+date: 2024-05-24
 description: "Proxy Pattern là một mẫu thiết kế cấu trúc cho phép bạn cung cấp một đối tượng thay thế hoặc placeholder cho một đối tượng khác. Bài viết này phân tích cách triển khai Proxy Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "proxy-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Proxy
   - Structural Patterns

@@ -1,16 +1,14 @@
 ---
-title: "Behavioral Pattern [7/11] - Observer Pattern trong JavaScript/TypeScript"
+title: "Behavioral Pattern [7/11] - Observer Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-07-09
 description: "Observer Pattern là một mẫu thiết kế hành vi cho phép định nghĩa cơ chế đăng ký để thông báo cho nhiều đối tượng về bất kỳ sự kiện nào xảy ra với đối tượng mà họ đang quan sát. Bài viết này phân tích cách triển khai Observer Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "observer-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Observer
   - Behavioral Patterns
@@ -398,4 +396,4 @@ eventSystem.emit('user:login', { userId: 456, username: 'jane_doe' });
 
 ## 6. Kết luận
 
-Observer Pattern là một mẫu thiết kế mạnh mẽ cho phép xây dựng các hệ thống lỏng lẻo và dễ mở rộng. Pattern này đặc biệt hữu ích trong JavaScript/TypeScript khi làm việc với các ứng dụng hướng sự kiện, real-time updates, hoặc quản lý trạng thái. Tuy nhiên, cần chú ý quản lý bộ nhớ và độ phức tạp khi sử dụng pattern này.
+Observer Pattern là một mẫu thiết kế mạnh mẽ cho phép xây dựng các hệ thống lỏng lẻo và dễ mở rộng. Pattern này đặc biệt hữu ích trong JavaScript / TypeScript khi làm việc với các ứng dụng hướng sự kiện, real-time updates, hoặc quản lý trạng thái. Tuy nhiên, cần chú ý quản lý bộ nhớ và độ phức tạp khi sử dụng pattern này.

@@ -1,16 +1,14 @@
 ---
-title: "Async Pattern [2/3] - Reactive Patterns trong JavaScript/TypeScript"
+title: "Async Pattern [2/3] - Reactive Patterns trong JavaScript / TypeScript"
 draft: false
 date: 2024-10-15
 description: "Reactive Patterns là cách tiếp cận lập trình theo luồng dữ liệu, cho phép xử lý các sự kiện và dữ liệu bất đồng bộ một cách hiệu quả. Bài viết này phân tích cách triển khai và ứng dụng của chúng trong JavaScript và TypeScript."
 slug: "reactive-patterns-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Reactive Programming
   - RxJS

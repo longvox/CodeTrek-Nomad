@@ -1,16 +1,14 @@
 ---
-title: "Structural Pattern [6/7] - Flyweight Pattern trong JavaScript/TypeScript"
+title: "Structural Pattern [6/7] - Flyweight Pattern trong JavaScript / TypeScript"
 draft: false
-date: 2024-06-04
+date: 2024-05-23
 description: "Flyweight Pattern là một mẫu thiết kế cấu trúc giúp tối ưu hóa việc sử dụng bộ nhớ bằng cách chia sẻ các trạng thái chung giữa nhiều đối tượng. Bài viết này phân tích cách triển khai Flyweight Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "flyweight-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Flyweight
   - Structural Patterns

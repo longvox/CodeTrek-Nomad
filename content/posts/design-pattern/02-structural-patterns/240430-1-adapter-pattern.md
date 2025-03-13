@@ -1,16 +1,14 @@
 ---
-title: "Structural Pattern [1/7] - Adapter Pattern trong JavaScript/TypeScript"
+title: "Structural Pattern [1/7] - Adapter Pattern trong JavaScript / TypeScript"
 draft: false
 date: 2024-04-30
 description: "Adapter Pattern là một mẫu thiết kế cấu trúc cho phép các interface không tương thích có thể làm việc cùng nhau. Bài viết này phân tích cách triển khai Adapter Pattern trong JavaScript và TypeScript, cùng với các trường hợp sử dụng thực tế."
 slug: "adapter-pattern-trong-javascript-typescript"
 categories:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
 tags:
-  - JavaScript
-  - TypeScript
+  - JS/TS
   - Design Patterns
   - Adapter
   - Structural Patterns
