@@ -6,7 +6,9 @@ theme = 'lowkey'
 title = 'CodeTrek Nomad'
 enableRobotsTXT = true
 summaryLength = 15
-paginate = 30
+
+[pagination]
+  pagerSize = 100
 
 [markup]
   [markup.highlight]
