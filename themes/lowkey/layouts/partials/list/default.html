@@ -8,7 +8,7 @@
       <div class="tags-list-homepage">
         {{ range . }}
           <a href="{{ .RelPermalink }}" alt="{{ .LinkTitle }}">
-            {{ .LinkTitle | strings.TrimSpace }}
+            {{ .LinkTitle }}
           </a>
         {{ end }}
       </div>
